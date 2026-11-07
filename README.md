@@ -21,8 +21,14 @@ _Muss nur von einer Person der Gruppe gemacht werden_
 
 ## Schritt 3: Repository lokal clonen
 - Wenn ein Laptop verwendet wird: Falls noch nicht vorhanden, [Visual Studio Code](https://code.visualstudio.com/download) herunterladen & öffnen. 
+- Wenn ein Laptop verwendet wird: Über das Terminal Username & Email hinterlegen:
+```
+git config --global user.name "Max Muster"
+git config --global user.email max@example.com
+```
 - Wenn ein Tablet verwendet wird: [https://vscode.dev](https://vscode.dev) öffnen
 - Links "Source Control" anwählen und "Clone Repository" klicken
+- Bei GitHub anmelden
 - Das zuvor erstellte GitHub Repository auswählen und Speicherort definieren
 
 ## Schritt 4: Änderungen vornehmen & pushen
