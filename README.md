@@ -21,7 +21,7 @@ _Muss nur von einer Person der Gruppe gemacht werden_
 
 ## Schritt 3: Repository lokal clonen
 - Wenn ein Laptop verwendet wird: Falls noch nicht vorhanden, [Visual Studio Code](https://code.visualstudio.com/download) herunterladen & öffnen. 
-- Wenn ein Laptop verwendet wird: Über das Terminal Username & Email hinterlegen:
+- Wenn ein Laptop verwendet wird: Über das Terminal (Mac) oder PowerShell (Windows) Username & Email hinterlegen:
 ```
 git config --global user.name "Max Muster"
 git config --global user.email max@example.com
@@ -36,12 +36,12 @@ git config --global user.email max@example.com
 - Mit "+" gewünschte Änderungen auswählen
 - **Commit Message** schreiben. Die Beschreibung ist wichtig und soll klar zu erkennen geben, was für Änderungen in diesem Commit gemacht wurden.
 - Mit einem Klick auf "Commit" wird ein Commit erstellt
-- Mit "Sync Changes" werden alle neuen Commits auf GitHub übertragen. Dies nennt man **Push**.
+- Mit "Sync Changes" werden alle neuen Commits auf GitHub übertragen. Dies nennt man **Git Push**.
 
 ![Create Commit](assets/create_commit.png)
 
 ## Schritt 5: Verifizieren, dass Änderungen auf GitHub übernommen wurden
-- Auf GitHub zum erstellen Repository navigieren und überprüfen, ob neu erstellte Commits sichtbar sind
+- Auf GitHub zum erstellten Repository navigieren und überprüfen, ob neu erstellte Commits sichtbar sind
 
 
 ## Schritt 6 (Optional): Branching
@@ -53,6 +53,6 @@ In Visual Studio Code kann unter "Source Control" über das Kontextmenu ("...") 
 
 ![Create Branch](assets/create_branch.png)
 
-Der aktuell ausgewählte Branch ist jeweils unten links sichtbar. Commits die jetzt erstellt werden, sind nur auf diesem Branch vorhanden. Wenn die Funktionalität  abgeschlossen ist kann der Branch über das Kontextmenu über "Merge..." in den Hauptbranch ("main") **gemerged** werden.
+Der aktuell ausgewählte Branch ist jeweils unten links sichtbar. Commits die jetzt erstellt werden, sind nur auf diesem Branch vorhanden. Wenn die Funktionalität  abgeschlossen ist, kann der Branch über das Kontextmenu über "Merge..." in den Hauptbranch ("main") **gemerged** werden.
 
 **Auftrag**: Erstellen Sie einen neuen Branch, fügen sie mindestens zwei Commits hinzu und mergen sie den Branch wieder in den Hauptbranch "main".
