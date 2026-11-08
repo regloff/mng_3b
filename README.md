@@ -26,6 +26,7 @@ _Muss nur von einer Person der Gruppe gemacht werden_
 git config --global user.name "Max Muster"
 git config --global user.email max@example.com
 ```
+Falls eine Fehlermeldung erscheint: [Git installieren](https://git-scm.com/install/windows).
 - Wenn ein Tablet verwendet wird: [https://vscode.dev](https://vscode.dev) öffnen
 - Links "Source Control" anwählen und "Clone Repository" klicken
 - Bei GitHub anmelden
